@@ -19,7 +19,7 @@ The `experiment.ipynb` notebook simulates real-world challenges using synthetic 
 Based on the experiments conducted in the notebook:
 
 * **Scaling Verification**: Features with a standard deviation as high as 3,200 were successfully normalized to 1.00, ensuring stable Gradient Descent.
-* **Optimal Convergence**: A Learning Rate of **0.1** was found to be ideal, reaching a cost plateau in fewer than 100 iterations.
+* **Optimal Convergence**: While a Learning Rate of 0.1 offered the fastest convergence, a more conservative Learning Rate of 0.03 was chosen for the final model. This ensures a smoother descent toward the global minimum and avoids the risk of overshooting the optimal parameters.
 * **Accuracy**: The model achieves high predictive accuracy, with low MAE and data points closely following the "Perfect Prediction" line in visualizations.
 
 ## 📁 Project Structure
