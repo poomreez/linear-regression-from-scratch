@@ -20,7 +20,7 @@ To validate the implementation, the custom model was compared against Scikit-lea
 
 | Metric | Custom Model (Scratch) | Scikit-learn |
 | :--- | :--- | :--- |
-| **Mean Absolute Error (MAE)** | **~8.12** | **~8.12** |
+| **Mean Absolute Error (MAE)** | **~7.19** | **~7.19** |
 | **Prediction Consistency** | **Identical** | **Identical** |
 
 The results confirm that the custom Gradient Descent and Scaling logic reach the exact same optimal solution as the industry-standard implementation.
