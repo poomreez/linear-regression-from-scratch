@@ -41,7 +41,6 @@ class LinearRegression:
             f = np.dot(X, self.w) + self.b
 
             dj_dw = np.dot(X.T, (f - y)) / m
-
             dj_db = np.sum(f - y) / m
 
             self.w = self.w * (1 - self.lr * (self.l2_lambda / m)) - self.lr * dj_dw
