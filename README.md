@@ -1,4 +1,4 @@
-# Linear Regression from Scratch with Regularization
+# Linear Regression from Scratch
 
 This project implements a **Linear Regression** model from scratch using Python and NumPy. It demonstrates a deep understanding of the mathematical foundations behind Gradient Descent, Feature Scaling, and L2 Regularization (Ridge).
 
